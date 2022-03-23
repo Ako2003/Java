@@ -4,10 +4,10 @@ import java.util.Scanner;
 import javax.print.attribute.IntegerSyntax;
 
 public class Number_quess{
-	public static void main(S_tring[] args){
+	public static void main(String[] args){
 		System.out.println("Computer wished a number! Try to guess it!");
 		int user_input_number = -1, computer_number;
-		S_tring user_input_string;
+		String user_input_string;
 		Scanner obj = new Scanner(System.in);
 		computer_number = (int)(Math.random()*10);
 		while (true) {
